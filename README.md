@@ -1,7 +1,9 @@
 <p align="center">
   <!-- TODO: Add reference tool link -->
   <a href="">
-    <img alt="Nexus Design System" src="https://user-images.githubusercontent.com/3901764/57545698-ce5f2380-7320-11e9-8682-903df232d7b0.png" width="100%" />
+    <img alt="Nexus Design System" src="https://github.com/user-attachments/assets/96174832-cebd-44cc-964f-091a5aa2e309" width="100%" />
+
+    
   </a>
 </p>
 <h1 align="center">
