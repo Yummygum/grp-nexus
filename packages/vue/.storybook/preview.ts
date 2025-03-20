@@ -1,6 +1,8 @@
 import type { Preview, VueRenderer } from '@storybook/vue3'
 import { withThemeByDataAttribute } from '@storybook/addon-themes'
 
+import '../src/assets/main.css';
+
 const preview: Preview = {
   parameters: {
     controls: {

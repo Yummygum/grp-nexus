@@ -48,5 +48,9 @@
     "type": "git",
     "url": "git+https://github.com/Yummygum/grp-nexus.git",
     "directory": "packages/vue"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.14",
+    "tailwindcss": "^4.0.14"
   }
 }

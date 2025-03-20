@@ -1,5 +1,9 @@
 <template>
   <button type="button" :class="classes" @click="onClick" :style="style">{{ label }} </button>
+
+  <h1 class="font-poppins text-3xl underline text-primary ">
+    Hello world!
+  </h1>
 </template>
 
 <script lang="ts" setup>

@@ -1,9 +1,13 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue';
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [vue()], // to process SFC
+  plugins: [
+    vue(),
+    tailwindcss()
+  ], // to process SFC
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
