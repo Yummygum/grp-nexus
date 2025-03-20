@@ -1,0 +1,39 @@
+{
+  "name": "@grp-nexus/vue",
+  "description": "A collection of components for Nexus Design System built using Vue.js",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && vue-tsc && vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "rimraf": "^5.0.1",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.6",
+    "vite": "^6.2.2",
+    "vue-tsc": "^2.2.8"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/lib.es.js",
+  "module": "./dist/lib.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/lib.es.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yummygum/grp-nexus.git",
+    "directory": "packages/vue"
+  }
+}

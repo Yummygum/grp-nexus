@@ -1,0 +1,14 @@
+{
+  "name": "grp-nexus",
+  "description": "A design system called Nexus",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^8.2.1"
+  }
+}
