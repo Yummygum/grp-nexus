@@ -10,7 +10,6 @@ export default defineConfig({
       name: 'NexusVue',
       formats: ['es'],
       fileName: (format) => `lib.${format}.js`,
-      // fileName: 'lib.js',
     },
     rollupOptions: {
       // external modules won't be bundled into your library
