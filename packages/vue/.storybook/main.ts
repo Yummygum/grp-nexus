@@ -16,7 +16,8 @@ const config: StorybookConfig = {
   ],
   "addons": [
     getAbsolutePath('@storybook/addon-essentials'),
-    getAbsolutePath("@storybook/experimental-addon-test")
+    getAbsolutePath("@storybook/experimental-addon-test"),
+    getAbsolutePath("@storybook/addon-themes")
   ],
   "framework": {
     "name": getAbsolutePath('@storybook/vue3-vite'),
